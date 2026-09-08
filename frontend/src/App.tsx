@@ -7,7 +7,7 @@ function App() {
   const [response, setResponse] = useState("What do you need help with today?");
 
   const sendToBackend = () => {
-    fetch("http://127.0.0.1:8000/process", {
+    fetch("https://codebox-hackathon-project.onrender.com/process", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
